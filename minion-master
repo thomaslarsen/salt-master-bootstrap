@@ -423,7 +423,8 @@ file_client: local
 #
 file_roots:
   base:
-    - /vagrant/salt-master/roots
+    - KICKSTART_LOC/roots
+    - /srv/salt
     - /srv/formulas/salt-formula
     
 # By default, the Salt fileserver recurses fully into all defined environments
@@ -452,7 +453,7 @@ file_roots:
 #
 pillar_roots:
   base:
-    - /vagrant/salt/pillar
+    - /srv/pillar
 
 ######        Security settings       #####
 ###########################################
