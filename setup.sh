@@ -4,7 +4,7 @@ export GIT_KICKSTART_URL=/vagrant
 export INSTALL_LOC=/srv/kickstart
 export SALT_FILE_ROOT=/srv/salt
 export SALT_PILLAR_ROOT=/srv/pillar
-export SALT_FORMULAR_ROOT=/srv/formulars
+export SALT_FORMULAR_ROOT=/srv/formulas
 export SALT_ETC=/etc/salt
 
 export GIT_SALT_FORMULA_URL=https://github.com/saltstack-formulas/salt-formula.git
